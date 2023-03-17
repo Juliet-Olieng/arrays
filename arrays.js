@@ -42,8 +42,17 @@ console.log(includeFour)
 
 // Write a JS script to sort the following string
 // let word = "lufituaeb"
-// word.reverse();
-// console.log(word)
+let word = "lufituaeb"
+
+let word2 = []
+for (let i = 0, n = word.length; i < n; i++) {
+    word2.push(word[i])
+}
+sortedWord2 = word2.sort()
+sortedWord = sortedWord2.join('')
+console.log(sortedWord)
+
+
 
    
 
